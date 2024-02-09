@@ -6,10 +6,28 @@
     margin-top: 100px;
     font-size: 27px;
   }
+  .social__items {
+    margin-bottom: 50px;
+  }
 }
 @media (max-width: 650px) {
   .social {
-    height: 550px;
+    height: 650px;
+  }
+  .social .block {
+    padding: 0 20px;
+  }
+  .social__text {
+    margin-top: 50px;
+    font-size: 23px;
+  }
+  .social__item img {
+    width: 60px;
+  }
+}
+@media (max-width: 550px) {
+  .social {
+    height: 630px;
   }
   .social .block {
     padding: 0 20px;
@@ -24,7 +42,7 @@
 }
 @media (max-width: 460px) {
   .social {
-    height: 420px;
+    height: 500px;
   }
   .social .block {
     padding: 0 20px;

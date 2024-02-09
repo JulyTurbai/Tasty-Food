@@ -7,12 +7,31 @@
             margin-top: 100px;
             font-size: 27px;
         }
+        &__items {
+            margin-bottom: 50px;
+        }
     }
 }
 
 @media(max-width: 650px) {
     .social {
-        height: 550px;
+        height: 650px;
+        .block {
+            padding: 0 20px;
+        }
+        &__text {
+            margin-top: 50px;
+            font-size: 23px;
+        }
+        &__item img{
+            width: 60px;
+           }
+    }
+}
+
+@media(max-width: 550px) {
+    .social {
+        height: 630px;
         .block {
             padding: 0 20px;
         }
@@ -28,7 +47,7 @@
 
 @media(max-width: 460px) {
     .social {
-        height: 420px;
+        height: 500px;
         .block {
             padding: 0 20px;
         }

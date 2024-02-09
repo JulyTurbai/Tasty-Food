@@ -13,8 +13,8 @@ const Main = () => {
 
             <Hero/>
             <Social/>
-            {/* <Discount/>
-            <Products/>
+            <Discount/>
+            {/* <Products/>
             <Toppings/>
             <About/> */}
 

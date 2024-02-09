@@ -1,0 +1,72 @@
+@media (max-width: 1500px) {
+    .discount {
+        &__img {
+            left:initial;
+        }
+    }
+}
+
+@media (max-width: 1055px) {
+    .discount {
+        &__top {
+            height: 80px;
+        }
+       &__price {
+        padding: 0 20px;
+        font-size: 170px;
+       }
+       &__bottom {
+        height: 80px;
+       }
+    }
+}
+
+@media (max-width: 800px) {
+    .discount {
+        .block {
+            height: 605px;
+        }
+        &__top {
+            height: 60px;
+        }
+       &__price {
+        padding: 0 20px;
+        font-size: 130px;
+       }
+       &__bottom {
+        height: 60px;
+       }
+       &__img img {
+        width: 90%;
+       }
+    }
+}
+
+@media (max-width: 630px) {
+    .discount {
+        .block {
+            height: 500px;
+        }
+        &__top {
+            height: 50px;
+        }
+       &__price {
+        padding: 0 20px;
+        font-size: 110px;
+       }
+       &__bottom {
+        height: 50px;
+       }
+       &__img img {
+        width: 90%;
+       }
+    }
+}
+
+@media (max-width:455px) {
+    .discount {
+        .block {
+            height: 420px;
+        }
+    }
+}

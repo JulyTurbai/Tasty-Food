@@ -1,6 +1,6 @@
 .discount {
-    position: relative;
     background-color: #4d0000;
+    position: relative;
     &__top {
        height: 115px; 
        background-color: #2f0000;
@@ -19,10 +19,10 @@
         text-shadow: 13px 8px 4px rgba(0, 0, 0, 0.3);
         z-index: 100;
     }
-    &__img {
+    &__img{
         position: absolute;
         top: 16%;
-        left: 36%;
+        left: 35%;
     }
     &__bottom {
         height: 115px; 
