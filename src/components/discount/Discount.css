@@ -1,0 +1,31 @@
+.discount {
+  position: relative;
+  background-color: #4d0000;
+}
+.discount__top {
+  height: 115px;
+  background-color: #2f0000;
+}
+.discount .block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 655px;
+}
+.discount__price {
+  font-size: 233px;
+  color: white;
+  font-family: "Montserrat";
+  text-transform: uppercase;
+  text-shadow: 13px 8px 4px rgba(0, 0, 0, 0.3);
+  z-index: 100;
+}
+.discount__img {
+  position: absolute;
+  top: 16%;
+  left: 36%;
+}
+.discount__bottom {
+  height: 115px;
+  background-color: #2f0000;
+}/*# sourceMappingURL=Discount.css.map */

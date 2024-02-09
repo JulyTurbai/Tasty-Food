@@ -1,0 +1,72 @@
+@media (max-width: 920px) {
+  .header {
+    padding: 0 20px 0 0;
+  }
+  .header .block {
+    padding-top: 50px;
+  }
+  .header .block .menu__item {
+    margin-right: 40px;
+  }
+  .header .block .logo {
+    width: 110px;
+    margin-right: 30px;
+  }
+  .header .block .logo img {
+    width: 60%;
+  }
+}
+@media (max-width: 640px) {
+  .header .block {
+    padding-top: 50px;
+  }
+  .header .block .menu {
+    font-size: 15px;
+  }
+  .header .block .menu__item {
+    margin-right: 40px;
+  }
+  .header .block .logo {
+    margin-right: 10px;
+  }
+  .header .block .logo img {
+    width: 60%;
+  }
+}
+@media (max-width: 540px) {
+  .header {
+    height: 150px;
+  }
+  .header .block {
+    padding-top: 20px;
+  }
+  .header .block .menu {
+    font-size: 13px;
+  }
+  .header .block .menu__item {
+    margin-right: 20px;
+  }
+  .header .block .logo {
+    width: 30%;
+  }
+}
+@media (max-width: 420px) {
+  .header {
+    height: 120px;
+  }
+  .header .block {
+    padding-top: 20px;
+  }
+  .header .block .menu {
+    font-size: 11px;
+  }
+  .header .block .menu__item {
+    margin-right: 20px;
+  }
+  .header .block .logo {
+    margin-right: 0;
+  }
+  .header .block .logo {
+    width: 30%;
+  }
+}/*# sourceMappingURL=HeaderMedia.css.map */
