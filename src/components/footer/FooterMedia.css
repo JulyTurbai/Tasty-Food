@@ -1,0 +1,131 @@
+@media (max-width: 1290px) {
+  .footer .block {
+    padding: 0 20px;
+  }
+  .footer__main-info {
+    width: 1000px;
+  }
+  .footer .open-info {
+    font-size: 40px;
+  }
+  .footer .phone__icon img {
+    width: 50px;
+  }
+  .footer .phone__number {
+    font-size: 20px;
+    margin-top: 30px;
+  }
+  .footer .location__icon img {
+    width: 50px;
+  }
+  .footer .location__adress {
+    font-size: 20px;
+    margin-top: 30px;
+  }
+}
+@media (max-width: 1050px) {
+  .footer .block {
+    padding: 0 20px;
+    height: 400px;
+  }
+  .footer__main-info {
+    width: 800px;
+  }
+  .footer .open-info {
+    font-size: 40px;
+  }
+  .footer .copyright__info {
+    font-size: 20px;
+  }
+}
+@media (max-width: 840px) {
+  .footer .block {
+    padding: 0 20px;
+    height: 300px;
+  }
+  .footer__main-info {
+    width: 600px;
+  }
+  .footer .open-info {
+    font-size: 25px;
+  }
+  .footer .phone__icon img {
+    width: 50px;
+  }
+  .footer .phone__number {
+    font-size: 17px;
+    margin-top: 30px;
+  }
+  .footer .location__icon img {
+    width: 50px;
+  }
+  .footer .location__adress {
+    font-size: 17px;
+    margin-top: 30px;
+  }
+}
+@media (max-width: 640px) {
+  .footer .block {
+    padding: 0 20px;
+    height: 300px;
+  }
+  .footer__shadow {
+    width: 100px;
+  }
+  .footer__main-info {
+    width: 450px;
+  }
+  .footer .open-info {
+    font-size: 22px;
+  }
+  .footer .phone__icon img {
+    width: 50px;
+  }
+  .footer .phone__number {
+    font-size: 17px;
+    margin-top: 30px;
+  }
+  .footer .location__icon img {
+    width: 50px;
+  }
+  .footer .location__adress {
+    font-size: 17px;
+    margin-top: 30px;
+  }
+}
+@media (max-width: 490px) {
+  .footer__shadow {
+    display: none;
+  }
+  .footer__main-info {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 300px;
+    height: 250px;
+    padding-top: 20px;
+  }
+  .footer .open-info {
+    font-size: 20px;
+  }
+  .footer .phone__icon img {
+    width: 30px;
+  }
+  .footer .phone__number {
+    font-size: 17px;
+    margin-top: 10px;
+  }
+  .footer .location__icon img {
+    width: 30px;
+  }
+  .footer .location__adress {
+    font-size: 17px;
+    margin-top: 10px;
+  }
+  .footer .copyright {
+    padding: 0 20px;
+  }
+  .footer .copyright__info {
+    font-size: 17px;
+  }
+}/*# sourceMappingURL=FooterMedia.css.map */

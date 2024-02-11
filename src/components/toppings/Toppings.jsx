@@ -1,5 +1,6 @@
 import React from 'react';
 import './Toppings.scss';
+import './ToppingsMedia.scss';
 
 const Toppings = () => {
     return (

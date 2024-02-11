@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './Products.scss';
+import './ProductsMedia.scss';
 import Pancake from './Pancake';
 import Waffle from './Waffle';
 
@@ -19,22 +20,23 @@ const Products = () => {
         './img/Waffle4.png',
     ];
 
-    const [currentImgIndex, setCurrentImgIndex] = useState(0);
+    const [currentImgPancake, setCurrentImgPancake] = useState(0);
+    const [currentImgWaffle, setCurrentImgWaffle] = useState(0);
 
     const prevPancakeSlide = () => {
-        setCurrentImgIndex((prevIndex) => (prevIndex === 0 ? pancakeImgs.length -1 : prevIndex - 1));
+        setCurrentImgPancake((prevIndex) => (prevIndex === 0 ? pancakeImgs.length -1 : prevIndex - 1));
     };
 
     const nextPancakeSlide = () => {
-        setCurrentImgIndex((prevIndex) => (prevIndex === pancakeImgs.length -1 ? 0 : prevIndex + 1))
+        setCurrentImgPancake((prevIndex) => (prevIndex === pancakeImgs.length -1 ? 0 : prevIndex + 1))
     }
 
     const prevWaffleSlide = () => {
-        setCurrentImgIndex((prevIndex) => (prevIndex === 0 ? wafflesImgs.length -1 : prevIndex - 1));
+        setCurrentImgWaffle((prevIndex) => (prevIndex === 0 ? wafflesImgs.length -1 : prevIndex - 1));
     };
 
     const nextWaffleSlide = () => {
-        setCurrentImgIndex((prevIndex) => (prevIndex === wafflesImgs.length -1 ? 0 : prevIndex + 1))
+        setCurrentImgWaffle((prevIndex) => (prevIndex === wafflesImgs.length -1 ? 0 : prevIndex + 1))
     }
     return (
         <div className='products'>
@@ -43,13 +45,13 @@ const Products = () => {
                     <Pancake
                     prevPancakeSlide={ prevPancakeSlide }
                     nextPancakeSlide={ nextPancakeSlide }
-                    currentImgIndex={ currentImgIndex }
+                    currentImgPancake={ currentImgPancake }
                     pancakeImgs={ pancakeImgs }
                     />
                      <Waffle
                     prevWaffleSlide={ prevWaffleSlide }
                     nextWaffleSlide={ nextWaffleSlide }
-                    currentImgIndex={ currentImgIndex }
+                    currentImgWaffle={ currentImgWaffle }
                     wafflesImgs={ wafflesImgs }
                     />
                 </div>

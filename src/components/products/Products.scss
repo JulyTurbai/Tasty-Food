@@ -16,7 +16,7 @@
                 width: 600px;
                 height: 450px;
             }
-            .btn-left {
+            &__btn-left {
                 background: none;
                 border: none;
                 color: #480000;
@@ -25,7 +25,7 @@
                 top: 40%;
                 left: -3.5%;
             }
-            .btn-right {
+            &__btn-right {
                 background: none;
                 border: none;
                 color: #480000;
@@ -35,7 +35,7 @@
                 right: -3.5%;
             }
             &__text {
-                width: 1080px;
+                max-width: 1080px;
                 height: 200px;
                 display: flex;
                 justify-content: center;
@@ -49,6 +49,9 @@
                 color: white;
                 padding: 0 115px;
             }
+            span {
+                font-size: 150px;
+            }
         }
         .waffle {
             &__slider {
@@ -58,7 +61,7 @@
                 width: 500px;
                 height: 450px;
             }
-            .btn-left {
+            &__btn-left {
                 background: none;
                 border: none;
                 color: #480000;
@@ -67,7 +70,7 @@
                 top: 40%;
                 left: -3.5%;
             }
-            .btn-right {
+            &__btn-right {
                 background: none;
                 border: none;
                 color: #480000;
@@ -77,7 +80,7 @@
                 right: -3.5%;
             }
             &__text {
-                width: 1080px;
+                max-width: 1080px;
                 height: 200px;
                 display: flex;
                 justify-content: center;
@@ -89,7 +92,10 @@
                 font-family: 'Montserrat';
                 font-style: italic;
                 color: white;
-                padding: 0 115px;
+                padding: 0 115px auto;
+            }
+            span {
+                font-size: 150px;
             }
         }
     }

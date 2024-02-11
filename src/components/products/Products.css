@@ -19,7 +19,7 @@
   width: 600px;
   height: 450px;
 }
-.products .block .pancake .btn-left {
+.products .block .pancake__btn-left {
   background: none;
   border: none;
   color: #480000;
@@ -28,7 +28,7 @@
   top: 40%;
   left: -3.5%;
 }
-.products .block .pancake .btn-right {
+.products .block .pancake__btn-right {
   background: none;
   border: none;
   color: #480000;
@@ -38,7 +38,7 @@
   right: -3.5%;
 }
 .products .block .pancake__text {
-  width: 1080px;
+  max-width: 1080px;
   height: 200px;
   display: flex;
   justify-content: center;
@@ -52,6 +52,9 @@
   color: white;
   padding: 0 115px;
 }
+.products .block .pancake span {
+  font-size: 150px;
+}
 .products .block .waffle__slider {
   position: relative;
 }
@@ -59,7 +62,7 @@
   width: 500px;
   height: 450px;
 }
-.products .block .waffle .btn-left {
+.products .block .waffle__btn-left {
   background: none;
   border: none;
   color: #480000;
@@ -68,7 +71,7 @@
   top: 40%;
   left: -3.5%;
 }
-.products .block .waffle .btn-right {
+.products .block .waffle__btn-right {
   background: none;
   border: none;
   color: #480000;
@@ -78,7 +81,7 @@
   right: -3.5%;
 }
 .products .block .waffle__text {
-  width: 1080px;
+  max-width: 1080px;
   height: 200px;
   display: flex;
   justify-content: center;
@@ -90,5 +93,8 @@
   font-family: "Montserrat";
   font-style: italic;
   color: white;
-  padding: 0 115px;
+  padding: 0 115px auto;
+}
+.products .block .waffle span {
+  font-size: 150px;
 }/*# sourceMappingURL=Products.css.map */

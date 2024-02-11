@@ -14,9 +14,9 @@ const Main = () => {
             <Hero/>
             <Social/>
             <Discount/>
-            {/* <Products/>
+            <Products/>
             <Toppings/>
-            <About/> */}
+            <About/>
 
         </div>
     );
