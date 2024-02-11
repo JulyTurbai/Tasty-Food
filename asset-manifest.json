@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Tasty-Food/static/css/main.d40c23a1.css",
+    "main.js": "/Tasty-Food/static/js/main.37742591.js",
+    "static/media/Toppings-back.png": "/Tasty-Food/static/media/Toppings-back.a81b6d82807beedc1946.png",
+    "static/media/Amsterdam.ttf": "/Tasty-Food/static/media/Amsterdam.dc9a6a533039b3fa2d32.ttf",
+    "static/media/Montserrat-Bold.ttf": "/Tasty-Food/static/media/Montserrat-Bold.733964aa5261b1af4852.ttf",
+    "index.html": "/Tasty-Food/index.html",
+    "main.d40c23a1.css.map": "/Tasty-Food/static/css/main.d40c23a1.css.map",
+    "main.37742591.js.map": "/Tasty-Food/static/js/main.37742591.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d40c23a1.css",
+    "static/js/main.37742591.js"
+  ]
+}
